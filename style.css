@@ -1,0 +1,26 @@
+<style type="text/css">
+    .divTable
+    {
+        display:table;
+        width:auto;
+        background-color:#eee;
+        border-collapse: collapse;
+        border:1px solid #888;
+        border-spacing:10px;
+        padding:10px;
+    }
+
+    .divRow
+    {
+       display:table-row;
+       width:auto;
+    }
+
+    .divCell
+    {
+        float:left;
+        display:table-column;
+        width:auto;
+        background-color:#ccc;
+    }
+</style>
