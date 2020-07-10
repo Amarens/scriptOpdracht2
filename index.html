@@ -1,10 +1,14 @@
+<!-- voeg altijd een html en head tag toe aan je HTML document -->
+
+<!-- voeg aan de juiste HTML elementen nog de classes / id's productPrice, productTotalCost, totalCost toe: deze heb je in een latere opdracht nodig -->
+
 <body>
   <form id="form1">
       <div class="divTable">
 
 
           <font face="sans-serif" >
-
+<!-- stop bij voorkeur alle css opmaakn in een apart css bestand en gebruik classes (en id's) om deze styling aan de HTML elementen toe te kennen -->
 <table width="500" border="1px solid #888" border-collapse="collapse">
         <tr align="left">
             <th style = "color: #FFFFFF; background-color:#000000;">Product</th>
@@ -24,6 +28,9 @@
         <tr align="left">
             <td>Broccoli</td>
             <td align = "right"> 0.99</td>
+                <!-- goed dat je alvast knoppen voor verhogen / verlagen hebt toegevoegd, maar je kunt deze
+                knoppen verwijderen en input type="number" gebruiken, dan krijg je automatisch pijltjes voor
+                verhogen / verlagen te zien -->
                <td><form><input type=submit value="-" style="width:30%"> <input value="0" style="width:30%">
                 <input type=submit value="+" style="width:30%"></form></td>
             <td>0</td>
